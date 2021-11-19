@@ -1,6 +1,7 @@
-# MUSINSA WATCHER!
+# NOTICE
+- **본 repository 는 [JunHyeok96](https://github.com/JunHyeok96) 님의 수락을 받아 [Musinsa-Watcher](https://github.com/JunHyeok96/Musinsa-Watcher) 프로젝트 운영 및 기능 추가를 위해 만든 mirror repository 입니다.**
 
-**본 repository 는 [JunHyeok96](https://github.com/JunHyeok96) 님의 수락을 받아 [Musinsa-Watcher](https://github.com/JunHyeok96/Musinsa-Watcher) 프로젝트 운영 및 기능 추가를 위해 만든 mirror repository 입니다.** 
+# MUSINSA WATCHER!
 
 ### :house:[HomePage](https://www.musinsa.info)
 
