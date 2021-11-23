@@ -9,12 +9,12 @@ AWS_RDS_PASSWD=os.environ.get("AWS_RDS_PASSWD")
 AWS_RDS_HOST=os.environ.get("AWS_RDS_HOST")
 AWS_RDS_DB=os.environ.get("AWS_RDS_DB")
 
-price_sql = "INSERT INTO price(product_id, rank, price, del_price, rating, rating_count, created_date, coupon, real_price) values(%s,%s, %s, %s, %s, %s, %s, %s, %s)"
-product_sql = """INSERT INTO product(product_id, img, product_name, product_url, brand, brand_url, modified_date, category, rank, real_price)
+price_sql = "INSERT INTO price(product_id, `rank`, price, del_price, rating, rating_count, created_date, coupon, real_price) values(%s,%s, %s, %s, %s, %s, %s, %s, %s)"
+product_sql = """INSERT INTO product(product_id, img, product_name, product_url, brand, brand_url, modified_date, category, `rank`, real_price)
                 values(%s,%s, %s, %s, %s, %s, %s, %s, %s, %s)
                 ON DUPLICATE KEY UPDATE
                 product_id = values(product_id), img = values(img), product_name = values(product_name), product_url = values(product_url), brand = values(brand),
-                brand_url = values(brand_url), modified_date = values(modified_date) , category = values(category), rank = values(rank), real_price = values(real_price)"""
+                brand_url = values(brand_url), modified_date = values(modified_date) , category = values(category), `rank` = values(`rank`), real_price = values(real_price)"""
 pages = [1, 11, 21, 31, 41, 51, 61, 71, 81, 91]
 price_list=[]
 product_list=[]
